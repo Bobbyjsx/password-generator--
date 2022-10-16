@@ -138,6 +138,7 @@ font-weight: bold;
 }
 footer{
     bottom:0;
+    margin-top:36px;
     text-align: center;
     color: #10B981;
     border-top:1px solid #10B981;
