@@ -1,23 +1,18 @@
+html{
+    overflow: hidden;
+}
 *{
     box-sizing: border-box;
-
 }
 body{
-    max-width: 100%;
-padding: 5px;
-    margin: auto;
     background-color: #1F2937;
    
  
    
 }
-
-.cont{
-    display: contents;
-}
 #contact{
-   
-    margin-bottom: 30px;
+
+    /* margin-bottom: 30px; */
     display: flex;
     flex-wrap: nowrap;
     flex-shrink: inherit;
@@ -27,7 +22,7 @@ padding: 5px;
    
 }
 h2{
-  
+
 height: 80px;
 left: 52px;
 top: 115px;
@@ -72,13 +67,8 @@ line-height: 28px;
 color: #D5D4D8;
 
 }
-.anti{
-    display: flex;
-    flex-wrap: nowrap;
-}
 .main{
-    width: 400px;
-    margin: auto;
+    width: 500px;
    
 
 }
@@ -88,31 +78,24 @@ color: #D5D4D8;
     flex-direction: row;
 }
 .pass{
-    float: left;
-  
-
+    
 }
-.sep{
-      border-bottom: 4px solid #24634e;
-}
-
-
 .generate{
 
    justify-content: center;
    display: flex;
-   /* align-items: center; */
-padding: 9px 17px 9px 15px;
-gap: 12px;
-width:400px;
-height: 42px;
+   align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    width: 98%;
+    height: 42px;
+
+    
+    background: hsl(160, 84%, 39%);
 
 
-background: hsl(160, 84%, 39%);
-
-
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
 }
 
 
@@ -137,41 +120,36 @@ border-radius: 6px;
 input{
    
     margin-right: 15px;
-   
-width: 85%;
-height: 39px;
-margin-bottom: 10px;
-padding: 10px;
-background: #273549;
-border-radius: 6px;
-color:#e7ebf0;
-font-size: 20px;
-font-weight: bold;
+    
+    width: 85%;
+    height: 39px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #273549;
+    border-radius: 6px;
+    color:#e7ebf0;
+    font-size: 20px;
+    font-weight: bold;
 }
 #insecure{
-    gap: 15px;
+    text-transform: uppercase;
     font-style: italic;
     font-weight: bold;
     color: rgb(212, 153, 26);
-
 }
 footer{
     bottom:0;
     text-align: center;
     color: #10B981;
-    border-top:1px solid #10B981;
-    border-width: 500px
     padding: 20px;
-    margin: auto;
-    width: 500px;
 }
 
 .git-btn{
-background-color:#10B981;
-border: #10B981;
-border-radius: 5px;
-font-weight: bold;
-padding: 10px;
+    background-color:#10B981;
+    border: #10B981;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
 
 }
 
@@ -186,15 +164,17 @@ a{
 }
 /*  */
 
-* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 500px) {}
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 300px) {
     /*Insert your tablet CSS in here!
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 500px) {
+  @media(margin:auto)
+
     /*Insert your mobile CSS in here!
 }
