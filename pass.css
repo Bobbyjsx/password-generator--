@@ -11,6 +11,10 @@ padding: 5px;
  
    
 }
+
+.cont{
+    display: contents;
+}
 #contact{
    
     margin-bottom: 30px;
@@ -73,7 +77,7 @@ color: #D5D4D8;
     flex-wrap: nowrap;
 }
 .main{
-    width: 500px;
+    width: 400px;
     margin: auto;
    
 
@@ -91,14 +95,16 @@ color: #D5D4D8;
 .sep{
       border-bottom: 4px solid #24634e;
 }
+
+
 .generate{
 
    justify-content: center;
    display: flex;
-   align-items: center;
+   /* align-items: center; */
 padding: 9px 17px 9px 15px;
 gap: 12px;
-width: 98%;
+width:400px;
 height: 42px;
 
 
@@ -143,7 +149,7 @@ font-size: 20px;
 font-weight: bold;
 }
 #insecure{
-    text-transform: uppercase;
+    gap: 15px;
     font-style: italic;
     font-weight: bold;
     color: rgb(212, 153, 26);
@@ -156,6 +162,8 @@ footer{
     border-top:1px solid #10B981;
     border-width: 100%;
     padding: 20px;
+    margin: auto;
+    width: 500px;
 }
 
 .git-btn{
