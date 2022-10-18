@@ -173,8 +173,15 @@ a{
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 500px) {
-  @media(margin:auto)
+@media only screen and (min-width:350x) and (max-width: 926px) {
 
+ .body{
+    padding: 0px;
+    overflow: hidden;
+
+ }
+    .main{
+        background-color: #fff;
+    }
     /*Insert your mobile CSS in here!
 }
